@@ -1,1 +1,1 @@
-# puzzle-lab
+# ICON 2024 workshop

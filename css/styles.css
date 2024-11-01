@@ -66,13 +66,14 @@ body {
 .section {
 	margin: 3%;
 	padding: 1%;
-	background-color: #ffffffef;
+	/* background-color: #ffffffef; */
 	border-radius: 2% ;
-	font-size: 1.5 em;
+	/* font-size: 1.5rem;
+	line-height: 150%; */
 	scroll-margin-top: 120px;
 }
 li.nav-item > a.nav-link {
-	font-size: 15px;
+	font-size: 1.3rem;
 	font-weight: 400;
 	color: #fff;
 }
@@ -110,24 +111,34 @@ body {
   }
 
 
-  .rock-salt-regular {
+.rock-salt-regular {
 	font-family: "Rock Salt", cursive;
 	font-weight: 400;
 	font-style: normal;
-  }
-  .fredericka-the-great-regular {
+}
+.fredericka-the-great-regular {
 	font-family: "Fredericka the Great", serif;
 	font-weight: 400;
 	font-style: normal;
-  }
-  .pacifico-regular {
+}
+.pacifico-regular {
 	font-family: "Pacifico", cursive;
 	font-weight: 400;
 	font-style: normal;
-  }
-  .satisfy-regular {
+}
+.satisfy-regular {
 	font-family: "Satisfy", cursive;
 	font-weight: 400;
 	font-style: normal;
-  }
-		
+}
+
+.card {
+	border-style: none;
+}
+.card img {
+	height:70%;
+	width:100%;
+	text-align:center;
+	border-radius: 60%;
+	border-style: none;
+}

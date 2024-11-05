@@ -110,26 +110,9 @@ body {
 	color: #6c757d; /* Bootstrap muted color */
   }
 
-
-.rock-salt-regular {
-	font-family: "Rock Salt", cursive;
+body {
+	font-family: "Roboto Slab", serif !important;
 	font-weight: 400;
-	font-style: normal;
-}
-.fredericka-the-great-regular {
-	font-family: "Fredericka the Great", serif;
-	font-weight: 400;
-	font-style: normal;
-}
-.pacifico-regular {
-	font-family: "Pacifico", cursive;
-	font-weight: 400;
-	font-style: normal;
-}
-.satisfy-regular {
-	font-family: "Satisfy", cursive;
-	font-weight: 400;
-	font-style: normal;
 }
 
 .card {
@@ -150,5 +133,9 @@ body {
 
 #scheduletable tr td {
 	vertical-align: middle;
-	text-align: center;
+	/* text-align: center; */
+}
+
+#scheduletable {
+	border: 2px solid #000;
 }

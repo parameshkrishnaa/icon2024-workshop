@@ -142,3 +142,13 @@ body {
 	border-radius: 60%;
 	border-style: none;
 }
+
+.text-overlay {
+	color: #000;
+    /* text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); */
+}
+
+#scheduletable tr td {
+	vertical-align: middle;
+	text-align: center;
+}

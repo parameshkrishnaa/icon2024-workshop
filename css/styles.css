@@ -120,11 +120,12 @@ body {
 }
 .card img {
 	/* height:70%; */
-	width:80%;
+	width:70%;
 	height: 200px;
 	text-align:center;
 	border-radius: 60%;
 	border-style: none;
+	border: 1px solid #ddd;
 }
 
 .text-overlay {

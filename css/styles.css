@@ -141,3 +141,7 @@ body {
 #scheduletable {
 	border: 2px solid #000;
 }
+
+span.tbc {
+	color: red;
+}

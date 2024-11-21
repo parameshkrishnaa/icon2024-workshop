@@ -123,13 +123,17 @@ body {
 	border-style: none !important;
 }
 .card img {
+	display: block;
+	object-fit: cover;
 	/* height:70%; */
 	width:70%;
-	height: 200px;
-	text-align:center;
+	height: 180px;
+	/* text-align:center; */
 	border-radius: 60%;
 	border-style: none;
-	border: 1px solid #ddd;
+	border: 4px solid #000;
+	/* border: 4px solid var(--primary-dark); */
+	margin: 0 auto;
 }
 
 .text-overlay {
@@ -158,4 +162,18 @@ body {
 }
 span.tbc {
 	color: red;
+}
+
+.card {
+	flex: 1 1 250px;
+	text-align: center;
+	margin: 3%;
+	padding: 20px 10px;
+}
+.card > a {
+	font-size: 1.3rem;
+}
+
+div.card-body {
+	text-align: justify !important;
 }
